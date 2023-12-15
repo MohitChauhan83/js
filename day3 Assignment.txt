@@ -1,0 +1,105 @@
+/*///data types coding//
+let a=25
+console.log(a)
+console.log(typeof a)// number
+//console.log(b)//not define
+let c;
+console.log(c)// undefined
+let d=null
+console.log(d)// null
+console.log(typeof d)// object
+let e="Mohit"
+console.log(typeof e)// string
+*/
+
+
+//***operators coding */
+//  Arithmetic operators**//
+/*let a=20;
+let b=10;
+let add= a+b;
+console.log(add)//30
+let sub=a-b;
+console.log(sub)//10
+let multi=a*b;
+console.log(multi)//200
+let divd=a/b;
+console.log(divd)//2
+let c=5
+let d=3
+let mode=c%d;
+console.log(mode)//2
+let exponational=c***d;
+console.log(exponational)//125
+*/
+//conditional operators**///
+/*a=10
+b=20
+console.log(a>b)// false 
+console.log(a<b)//true
+console.log(a>=b)// false 
+console.log(a<=b)//true
+console.log(a==b);// false
+console.log(a=b);//20 but b value in a
+console.log(a)//20 ac to upper line code 
+console.log(a===b)//true beause a=b in 43 line//*/
+
+//***Assignment operator */
+//let a=10
+//let b=20
+//console.log(a+=b)// working same a+b
+//console.log(a-=b)// working same a-b
+//console.log(a*=b)// working same as a*b
+//console.log(a/=b)// working same as a/b
+//console.log(a%=b)
+//console.log(a**=b)// a**b working 
+
+//** Shifting Assignment operators */
+//let a=20;
+
+//console.log(a>>=2)// 20/2=10/2=5
+//console.log(a<<=2)//20*2=40*2=80
+//console.log (a>>>=2)// samajh nhii aaya
+
+//***increment decrement operators */
+let a=5
+//console.log(++a)//6 first increment then execute
+//console.log(a++)//5 first execute then increment
+ //console.log(--a)//4 first decrement then execute
+ //console.log(a--)// 5 first execute then decrement
+
+Q2.   What are the uses of JavaScript Operators?
+JavaScript operators are symbols that are used to perform operations on operands (values and variables).
+ There are different types of JavaScript operators such as arithmetic, assignment, comparison, logical, conditional and type operators .
+
+Q3.   Explain the Assignment Operator.
+
+The assignment operator in JavaScript is represented by the symbol =. It is used to assign a value to a variable or property. example given in the code.
+ 
+
+Q4.  Explain the all Arithmetic Operators.
+ 
+These operators involve the mathematical operators that can be used to perform various simple or advanced arithmetic operations on the primitive data types
+ referred to as the operands. These operators consist of various unary and binary operators that can be applied on a single or two operands.
+ 
+ 
+Q5.  What are the Binary Operators in JS.
+Binary operators are these operators required to operand.
+All Arithmetic opetrators are binary Arithematics operators.
+All compersion Operators are the binary comperision operators.
+All assignment operators are the binary Assignment operators.etc.
+in any operators requried two operand theoperatorsare binany operators.
+
+ 
+Q6.  Explain the Pre-Increment and Post Increment in JS.
+Pre-increment means first increment then execute like a=5 , ++a=6 
+Post increment means first execute then increment like a=5, a++ =5 after then 6
+
+
+
+
+
+
+
+
+

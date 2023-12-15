@@ -1,0 +1,50 @@
+
+
+Q.1  What are the different data types present in java script?
+Ans-  java script is a Programming language. Every programming language   have   a different type of   datatypes  
+1. String
+2. Number
+3. BIGINT
+4. Boolean
+5. Undefined
+6. Null
+7. Symbol
+8. Object
+
+
+Q2.What are the JavaScript Engines?
+A JavaScript engine is a Software Components that execute JS code. The first JS engine is  interpreters, but all relevant modern engines use just-in-time compilation
+ for improved performance. 
+JavaScript engines are typically developed by web browser vendors, and every major browser has one browser, the JavaScript engine runs with Document Object Model.
+example-  
+	v8 engine for chrome in 2008
+	Apple developed Nitro engine for Safari browser
+	SpiderMonkey for Firefox
+and others browser have a own engines.
+	
+
+Q3.    Why We use JavaScript?
+JavaScript is a scripting language used to develop web pages. Developed in Netscape, JS allows developers to create a dynamic and interactive web page 
+to interact with visitors and execute complex actions. It also enables users to load content into a document without reloading the entire page
+
+Q4.    What is JavaScript? And also Explain the History of JavaScript?
+JavaScript is a light-weight object-oriented programming language that is used by several websites for scripting the webpages. It is an interpreted,
+ programming language. JavaScript enables dynamic interactivity on websites when it is applied to an HTML document.
+JS helps the users to build modern web applications to interact directly without reloading the page every time. JavaScript is commonly used to dynamically 
+modify HTML and CSS  files.
+
+History of JS 
+Java Script was invented by Brendan Eich in 1995. It was developed for Netscape2 and become ECMA-262 standard in 1997.
+
+Q5.    What is DOM in java Script?  
+  Document Object Module (DOM) is a programming interface for web documents.it represents the page so that programs can change the document structure,
+ style and content. The DOM represents the document as nodes and object; that way programming languages can interact with the page.
+Java script code written in JS file but uses. The DOM to access the document and its elements. The DOM is not a programming language but without it,
+ JS language wouldn’t have any model or notion of the web pages. 
+Note- The DOM is not a part of JS but is instead a web API used to build websites.
+   
+
+
+
+
+
