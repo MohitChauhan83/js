@@ -1,0 +1,122 @@
+Q1.  Create the Example for Logical Operators 
+Ans. The logical operators used in Js. to check the binary condition true and false and the result is then code exicute to desirable ouput.
+there are three type of logical operators used in  js.
+1. and && operator is used both condition is true.
+	true && true is give result true other than any 3 condition result is false
+example
+let a= 80
+let b=60
+let c=100
+let result =( a>b  && a>c)
+    console.log(" a is greatest in among three"+result)// false
+
+2. or || operators is used to check if one condition is true then code give desirable output. 
+check true || true out put will be true
+	true|| false, false || true result is true
+	false || false the result is false
+example-
+ let result =a>b || a>c
+    console.log(" a is bigger then b and smallest then c"+result)
+3. not ! operators revesed the output
+
+
+ 
+Q2.  Difference between “ == “ and “ === “ operators.
+	== it is check the value not data types it is comparison operator
+	=== it is check the value and its data type both are same the give true value . it is also comparison operator.
+example code
+let a=20// Integer type
+let b="20"// String type
+console.log(a==b)// true because not check data types only check it value
+console.log(a===b)// false because check value and   data types and one data is String and one is Integer. show give the result false.
+
+Q3.  How many operators do we have in JS ?
+Ans- many type of operators used in js. i diffine some type of operators.
+	1. Arithmetic binary  operators 
+	1. Addition + 2. subtract - 3. multiplication 4. divid / 5. modulus % 6. exponination **
+	2. comparision operators
+	>,<,>=,<=,===,== etc
+	
+	3. conditional operators.
+	&&, ||, !
+	4. assignment operators.==
+	5.pre and post increment or Decriment operators
+example		//***operators coding */
+//  Arithmetic operators**//
+/*let a=20;
+let b=10;
+let add= a+b;
+console.log(add)//30
+let sub=a-b;
+console.log(sub)//10
+let multi=a*b;
+console.log(multi)//200
+let divd=a/b;
+console.log(divd)//2
+let c=5
+let d=3
+let mode=c%d;
+console.log(mode)//2
+let exponational=c***d;
+console.log(exponational)//125
+*/
+//conditional operators**///
+/*a=10
+b=20
+console.log(a>b)// false 
+console.log(a<b)//true
+console.log(a>=b)// false 
+console.log(a<=b)//true
+console.log(a==b);// false
+console.log(a=b);//20 but b value in a
+console.log(a)//20 ac to upper line code 
+console.log(a===b)//true beause a=b in 43 line//*/
+
+//***Assignment operator */
+//let a=10
+//let b=20
+//console.log(a+=b)// working same a+b
+//console.log(a-=b)// working same a-b
+//console.log(a*=b)// working same as a*b
+//console.log(a/=b)// working same as a/b
+//console.log(a%=b)
+//console.log(a**=b)// a**b working 
+
+//** Shifting Assignment operators */
+//let a=20;
+
+//console.log(a>>=2)// 20/2=10/2=5
+//console.log(a<<=2)//20*2=40*2=80
+//console.log (a>>>=2)// samajh nhii aaya
+
+//***increment decrement operators */
+//let a=5
+//console.log(++a)//6 first increment then execute
+//console.log(a++)//5 first execute then increment
+ //console.log(--a)//4 first decrement then execute
+ //console.log(a--)// 5 first execute then decrement
+
+
+
+	
+
+Q4.  What is use of parseInt in js?
+Ans- parseInt is used to convert string input to num input it is a object type predefine method
+example 
+let num=prompt(" enter a number")
+console.log(num)// type is String
+// using parseInt to convert string to number
+num= parseInt(num)
+
+Q5.  Take input from user and find the odd and even number.
+
+Ans- taking a input for user used keyword promt().
+example 
+let num=parseInt(prompt("enter a number"))
+if(num% 2==0){
+    console.log("number is even"+num)
+}else{
+    console.log("number is odd "+num)
+}
+
+
